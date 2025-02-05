@@ -1,0 +1,8 @@
+pip install einops
+pip install numpy
+pip install pandas
+pip install scikit-learn==1.2.2
+pip install imbalanced-learn
+pip install torchsummary
+pip install torch torchvision torchaudio
+pip install matplotlib

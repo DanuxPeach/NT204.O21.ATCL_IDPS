@@ -1,0 +1,1337 @@
+2024-05-06 13:09:30,862 INFO =================================================
+2024-05-06 13:09:30,862 INFO 
+[ TRAINING EPOCH 0 ]
+2024-05-06 13:17:08,292 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 13:17:59,337 INFO ---Classification Report---
+2024-05-06 13:17:59,337 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9444    0.9757    0.9598     32807
+                       Bot     0.9976    0.9986    0.9981     32926
+                      DDoS     0.7786    0.9991    0.8752     33053
+             DoS GoldenEye     0.9968    0.7120    0.8307     33199
+                  DoS Hulk     0.9803    0.9927    0.9865     32955
+          DoS Slowhttptest     0.8113    0.1147    0.2011     32942
+             DoS slowloris     0.7125    0.9701    0.8216     33249
+               FTP-Patator     0.9962    0.9984    0.9973     33289
+                Heartbleed     0.9999    1.0000    0.9999     32913
+              Infiltration     0.9850    1.0000    0.9925     33029
+                  PortScan     0.6891    0.9928    0.8135     32907
+               SSH-Patator     0.9923    0.9970    0.9946     32991
+  Web Attack � Brute Force     0.4944    0.9580    0.6522     32775
+Web Attack � Sql Injection     0.9507    0.9997    0.9746     33096
+          Web Attack � XSS     0.0000    0.0000    0.0000     32845
+
+                  accuracy                         0.8476    494976
+                 macro avg     0.8219    0.8473    0.8065    494976
+              weighted avg     0.8224    0.8476    0.8069    494976
+
+2024-05-06 13:17:59,352 INFO Validating loss: 1.9668291906746962
+2024-05-06 13:17:59,352 INFO Validating accuracy: 0.8475744278510473
+2024-05-06 13:17:59,572 INFO =================================================
+2024-05-06 13:17:59,572 INFO 
+[ TRAINING EPOCH 1 ]
+2024-05-06 13:25:36,012 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 13:26:26,542 INFO ---Classification Report---
+2024-05-06 13:26:26,545 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9507    0.9691    0.9598     32807
+                       Bot     0.9930    0.9997    0.9964     32927
+                      DDoS     0.9672    0.9997    0.9832     33055
+             DoS GoldenEye     0.9965    0.7128    0.8311     33200
+                  DoS Hulk     0.9859    0.9959    0.9909     32955
+          DoS Slowhttptest     0.8942    0.1147    0.2033     32940
+             DoS slowloris     0.7344    0.9705    0.8361     33247
+               FTP-Patator     0.6620    0.9984    0.7961     33285
+                Heartbleed     0.9999    1.0000    1.0000     32913
+              Infiltration     0.9473    1.0000    0.9729     33031
+                  PortScan     0.9976    0.9956    0.9966     32908
+               SSH-Patator     0.8292    0.9971    0.9054     32991
+  Web Attack � Brute Force     0.8130    0.1523    0.2565     32773
+Web Attack � Sql Injection     0.9346    1.0000    0.9662     33095
+          Web Attack � XSS     0.5336    0.9257    0.6770     32849
+
+                  accuracy                         0.8558    494976
+                 macro avg     0.8826    0.8554    0.8248    494976
+              weighted avg     0.8825    0.8558    0.8250    494976
+
+2024-05-06 13:26:26,545 INFO Validating loss: 1.9587277284049545
+2024-05-06 13:26:26,545 INFO Validating accuracy: 0.855813211145591
+2024-05-06 13:26:26,725 INFO =================================================
+2024-05-06 13:26:26,725 INFO 
+[ TRAINING EPOCH 2 ]
+2024-05-06 13:34:22,262 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 13:35:14,307 INFO ---Classification Report---
+2024-05-06 13:35:14,307 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.6125    0.9858    0.7555     32807
+                       Bot     0.9986    0.9953    0.9969     32924
+                      DDoS     0.9634    0.9992    0.9809     33055
+             DoS GoldenEye     0.9996    0.7011    0.8242     33198
+                  DoS Hulk     0.9459    0.9987    0.9716     32956
+          DoS Slowhttptest     0.8270    0.1147    0.2015     32942
+             DoS slowloris     0.6765    0.9705    0.7972     33249
+               FTP-Patator     0.9973    0.9984    0.9978     33287
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     0.9688    1.0000    0.9841     33031
+                  PortScan     0.9993    0.9955    0.9974     32906
+               SSH-Patator     0.9950    0.9972    0.9961     32991
+  Web Attack � Brute Force     0.5001    0.9445    0.6539     32774
+Web Attack � Sql Injection     0.9472    1.0000    0.9729     33094
+          Web Attack � XSS     0.6866    0.0357    0.0678     32849
+
+                  accuracy                         0.8494    494976
+                 macro avg     0.8745    0.8491    0.8132    494976
+              weighted avg     0.8748    0.8494    0.8136    494976
+
+2024-05-06 13:35:14,307 INFO Validating loss: 1.9645700300266986
+2024-05-06 13:35:14,307 INFO Validating accuracy: 0.8493906775277993
+2024-05-06 13:35:14,307 INFO EarlyStopping counter: 1 out of 10
+2024-05-06 13:35:14,307 INFO Best loss is: 1.9587277284049545
+2024-05-06 13:35:14,307 INFO Best accuracy is: 0.855813211145591
+2024-05-06 13:35:14,309 INFO =================================================
+2024-05-06 13:35:14,309 INFO 
+[ TRAINING EPOCH 3 ]
+2024-05-06 13:46:03,476 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 13:47:30,435 INFO ---Classification Report---
+2024-05-06 13:47:30,435 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.7357    0.9865    0.8428     32806
+                       Bot     0.9987    0.9995    0.9991     32925
+                      DDoS     0.8282    0.9992    0.9057     33056
+             DoS GoldenEye     0.7639    0.7130    0.7376     33200
+                  DoS Hulk     0.9083    0.9987    0.9513     32952
+          DoS Slowhttptest     0.8135    0.1150    0.2015     32941
+             DoS slowloris     0.7603    0.9707    0.8527     33247
+               FTP-Patator     0.9992    0.9990    0.9991     33288
+                Heartbleed     1.0000    1.0000    1.0000     32915
+              Infiltration     0.9819    1.0000    0.9909     33030
+                  PortScan     0.9995    0.9956    0.9975     32906
+               SSH-Patator     0.9956    0.9992    0.9974     32992
+  Web Attack � Brute Force     0.9424    0.1628    0.2776     32774
+Web Attack � Sql Injection     0.9662    1.0000    0.9828     33096
+          Web Attack � XSS     0.5422    0.9605    0.6931     32848
+
+                  accuracy                         0.8603    494976
+                 macro avg     0.8824    0.8600    0.8286    494976
+              weighted avg     0.8824    0.8603    0.8290    494976
+
+2024-05-06 13:47:30,435 INFO Validating loss: 1.9535691905829344
+2024-05-06 13:47:30,435 INFO Validating accuracy: 0.8603427236876131
+2024-05-06 13:47:30,672 INFO =================================================
+2024-05-06 13:47:30,672 INFO 
+[ TRAINING EPOCH 4 ]
+2024-05-06 13:59:19,151 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 14:00:47,682 INFO ---Classification Report---
+2024-05-06 14:00:47,682 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9511    0.9867    0.9686     32807
+                       Bot     0.9984    0.9995    0.9989     32926
+                      DDoS     0.9404    0.9995    0.9690     33054
+             DoS GoldenEye     0.9993    0.7125    0.8319     33200
+                  DoS Hulk     0.9588    0.9987    0.9784     32956
+          DoS Slowhttptest     0.9965    0.9448    0.9700     32938
+             DoS slowloris     0.9493    0.9945    0.9714     33248
+               FTP-Patator     0.9991    0.9988    0.9990     33289
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     0.9562    1.0000    0.9776     33029
+                  PortScan     0.8953    0.9956    0.9428     32907
+               SSH-Patator     0.9954    0.9996    0.9975     32991
+  Web Attack � Brute Force     0.9508    0.1622    0.2772     32774
+Web Attack � Sql Injection     0.9616    1.0000    0.9804     33097
+          Web Attack � XSS     0.5425    0.9632    0.6941     32847
+
+                  accuracy                         0.9173    494976
+                 macro avg     0.9396    0.9170    0.9038    494976
+              weighted avg     0.9398    0.9173    0.9041    494976
+
+2024-05-06 14:00:47,682 INFO Validating loss: 1.898462515269443
+2024-05-06 14:00:47,682 INFO Validating accuracy: 0.9173293250581847
+2024-05-06 14:00:47,896 INFO =================================================
+2024-05-06 14:00:47,896 INFO 
+[ TRAINING EPOCH 5 ]
+2024-05-06 14:08:24,522 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 14:09:15,230 INFO ---Classification Report---
+2024-05-06 14:09:15,231 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9664    0.9851    0.9757     32807
+                       Bot     0.9985    0.9991    0.9988     32927
+                      DDoS     0.8119    0.9994    0.8959     33054
+             DoS GoldenEye     0.9965    0.7136    0.8316     33200
+                  DoS Hulk     0.9834    0.9995    0.9913     32954
+          DoS Slowhttptest     0.9924    0.8849    0.9356     32941
+             DoS slowloris     0.8794    0.9951    0.9337     33249
+               FTP-Patator     0.9993    1.0000    0.9996     33286
+                Heartbleed     1.0000    1.0000    1.0000     32915
+              Infiltration     0.9904    1.0000    0.9952     33027
+                  PortScan     0.9988    0.9955    0.9972     32907
+               SSH-Patator     0.9965    0.9993    0.9979     32992
+  Web Attack � Brute Force     0.9398    0.1620    0.2763     32774
+Web Attack � Sql Injection     0.9642    1.0000    0.9818     33095
+          Web Attack � XSS     0.5425    0.9615    0.6936     32848
+
+                  accuracy                         0.9133    494976
+                 macro avg     0.9373    0.9130    0.9003    494976
+              weighted avg     0.9374    0.9133    0.9006    494976
+
+2024-05-06 14:09:15,231 INFO Validating loss: 1.9026039182477013
+2024-05-06 14:09:15,231 INFO Validating accuracy: 0.9132766033100594
+2024-05-06 14:09:15,231 INFO EarlyStopping counter: 1 out of 10
+2024-05-06 14:09:15,231 INFO Best loss is: 1.898462515269443
+2024-05-06 14:09:15,231 INFO Best accuracy is: 0.9173293250581847
+2024-05-06 14:09:15,232 INFO =================================================
+2024-05-06 14:09:15,232 INFO 
+[ TRAINING EPOCH 6 ]
+2024-05-06 14:18:31,201 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 14:19:58,521 INFO ---Classification Report---
+2024-05-06 14:19:58,521 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9950    0.9856    0.9903     32806
+                       Bot     0.9984    0.9992    0.9988     32925
+                      DDoS     0.9994    0.9993    0.9993     33055
+             DoS GoldenEye     0.9994    0.7096    0.8299     33201
+                  DoS Hulk     0.9512    0.9991    0.9745     32957
+          DoS Slowhttptest     0.9820    0.9953    0.9886     32941
+             DoS slowloris     0.9065    0.9934    0.9480     33248
+               FTP-Patator     0.9954    1.0000    0.9977     33287
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.8962    1.0000    0.9453     33029
+                  PortScan     0.9667    0.9956    0.9809     32906
+               SSH-Patator     0.9967    0.9994    0.9980     32989
+  Web Attack � Brute Force     0.9453    0.1631    0.2781     32773
+Web Attack � Sql Injection     0.9630    1.0000    0.9812     33096
+          Web Attack � XSS     0.5429    0.9630    0.6943     32849
+
+                  accuracy                         0.9204    494976
+                 macro avg     0.9425    0.9202    0.9070    494976
+              weighted avg     0.9427    0.9204    0.9073    494976
+
+2024-05-06 14:19:58,521 INFO Validating loss: 1.8953470444229181
+2024-05-06 14:19:58,521 INFO Validating accuracy: 0.9204405870183605
+2024-05-06 14:19:58,776 INFO =================================================
+2024-05-06 14:19:58,776 INFO 
+[ TRAINING EPOCH 7 ]
+2024-05-06 14:29:43,810 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 14:30:32,926 INFO ---Classification Report---
+2024-05-06 14:30:32,926 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9939    0.9815    0.9877     32806
+                       Bot     0.9942    0.9997    0.9970     32926
+                      DDoS     0.9979    0.9995    0.9987     33055
+             DoS GoldenEye     0.9997    0.7025    0.8251     33198
+                  DoS Hulk     0.9662    0.9995    0.9826     32954
+          DoS Slowhttptest     0.9960    0.9949    0.9954     32942
+             DoS slowloris     0.9859    0.9938    0.9898     33249
+               FTP-Patator     0.9992    1.0000    0.9996     33287
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     1.0000    1.0000    1.0000     33030
+                  PortScan     0.8329    0.9956    0.9070     32907
+               SSH-Patator     0.9528    0.9993    0.9755     32990
+  Web Attack � Brute Force     0.9583    0.1635    0.2793     32774
+Web Attack � Sql Injection     0.9364    1.0000    0.9672     33097
+          Web Attack � XSS     0.5420    0.9636    0.6938     32848
+
+                  accuracy                         0.9198    494976
+                 macro avg     0.9437    0.9196    0.9066    494976
+              weighted avg     0.9439    0.9198    0.9069    494976
+
+2024-05-06 14:30:32,926 INFO Validating loss: 1.8960060331289361
+2024-05-06 14:30:32,926 INFO Validating accuracy: 0.9198324767261443
+2024-05-06 14:30:32,926 INFO EarlyStopping counter: 1 out of 10
+2024-05-06 14:30:32,926 INFO Best loss is: 1.8953470444229181
+2024-05-06 14:30:32,926 INFO Best accuracy is: 0.9204405870183605
+2024-05-06 14:30:32,926 INFO =================================================
+2024-05-06 14:30:32,926 INFO 
+[ TRAINING EPOCH 8 ]
+2024-05-06 14:38:14,982 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 14:39:04,572 INFO ---Classification Report---
+2024-05-06 14:39:04,572 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9689    0.9864    0.9776     32806
+                       Bot     0.9980    0.9994    0.9987     32925
+                      DDoS     0.8104    0.9993    0.8950     33054
+             DoS GoldenEye     0.9997    0.7127    0.8322     33201
+                  DoS Hulk     0.9888    0.9995    0.9941     32955
+          DoS Slowhttptest     0.9977    0.9446    0.9704     32941
+             DoS slowloris     0.9450    0.9960    0.9699     33249
+               FTP-Patator     0.9995    0.9999    0.9997     33285
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.9829    1.0000    0.9914     33031
+                  PortScan     0.9844    0.9956    0.9900     32908
+               SSH-Patator     0.9936    0.9995    0.9965     32992
+  Web Attack � Brute Force     0.9308    0.1642    0.2792     32775
+Web Attack � Sql Injection     0.9620    1.0000    0.9806     33092
+          Web Attack � XSS     0.5428    0.9611    0.6937     32848
+
+                  accuracy                         0.9175    494976
+                 macro avg     0.9403    0.9172    0.9046    494976
+              weighted avg     0.9404    0.9175    0.9049    494976
+
+2024-05-06 14:39:04,572 INFO Validating loss: 1.8982401933046098
+2024-05-06 14:39:04,572 INFO Validating accuracy: 0.9175010505559865
+2024-05-06 14:39:04,572 INFO EarlyStopping counter: 2 out of 10
+2024-05-06 14:39:04,572 INFO Best loss is: 1.8953470444229181
+2024-05-06 14:39:04,572 INFO Best accuracy is: 0.9204405870183605
+2024-05-06 14:39:04,573 INFO =================================================
+2024-05-06 14:39:04,573 INFO 
+[ TRAINING EPOCH 9 ]
+2024-05-06 14:46:44,325 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 14:47:33,934 INFO ---Classification Report---
+2024-05-06 14:47:33,934 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9476    0.9862    0.9665     32808
+                       Bot     0.9990    0.9852    0.9921     32925
+                      DDoS     0.9582    0.9995    0.9785     33055
+             DoS GoldenEye     0.9994    0.7123    0.8318     33199
+                  DoS Hulk     0.9901    0.9994    0.9947     32954
+          DoS Slowhttptest     0.9955    0.9937    0.9946     32943
+             DoS slowloris     0.9950    0.9934    0.9942     33250
+               FTP-Patator     0.9447    1.0000    0.9715     33288
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.8652    1.0000    0.9277     33029
+                  PortScan     0.9872    0.9951    0.9911     32906
+               SSH-Patator     0.9967    0.9993    0.9980     32989
+  Web Attack � Brute Force     0.9528    0.1634    0.2789     32774
+Web Attack � Sql Injection     0.9615    1.0000    0.9804     33093
+          Web Attack � XSS     0.5431    0.9634    0.6946     32849
+
+                  accuracy                         0.9197    494976
+                 macro avg     0.9424    0.9194    0.9063    494976
+              weighted avg     0.9425    0.9197    0.9066    494976
+
+2024-05-06 14:47:33,934 INFO Validating loss: 1.8960942965562504
+2024-05-06 14:47:33,934 INFO Validating accuracy: 0.9196748933281613
+2024-05-06 14:47:33,934 INFO EarlyStopping counter: 3 out of 10
+2024-05-06 14:47:33,934 INFO Best loss is: 1.8953470444229181
+2024-05-06 14:47:33,935 INFO Best accuracy is: 0.9204405870183605
+2024-05-06 14:47:33,935 INFO =================================================
+2024-05-06 14:47:33,935 INFO 
+[ TRAINING EPOCH 10 ]
+2024-05-06 14:55:17,481 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 14:56:06,165 INFO ---Classification Report---
+2024-05-06 14:56:06,165 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9966    0.9830    0.9897     32806
+                       Bot     0.9988    0.9995    0.9991     32925
+                      DDoS     0.8220    0.9996    0.9022     33053
+             DoS GoldenEye     0.9993    0.7134    0.8325     33199
+                  DoS Hulk     0.9969    0.9987    0.9978     32956
+          DoS Slowhttptest     0.9937    0.9950    0.9944     32941
+             DoS slowloris     0.9961    0.9936    0.9949     33249
+               FTP-Patator     0.9998    1.0000    0.9999     33289
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.9869    1.0000    0.9934     33030
+                  PortScan     0.9543    0.9955    0.9745     32908
+               SSH-Patator     0.9978    0.9999    0.9989     32991
+  Web Attack � Brute Force     0.9324    0.1628    0.2772     32774
+Web Attack � Sql Injection     0.9670    1.0000    0.9832     33094
+          Web Attack � XSS     0.5454    0.9896    0.7032     32847
+
+                  accuracy                         0.9223    494976
+                 macro avg     0.9458    0.9220    0.9094    494976
+              weighted avg     0.9459    0.9223    0.9097    494976
+
+2024-05-06 14:56:06,165 INFO Validating loss: 1.8935211275725639
+2024-05-06 14:56:06,165 INFO Validating accuracy: 0.9223053238944918
+2024-05-06 14:56:06,338 INFO =================================================
+2024-05-06 14:56:06,338 INFO 
+[ TRAINING EPOCH 11 ]
+2024-05-06 15:03:53,065 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 15:04:42,163 INFO ---Classification Report---
+2024-05-06 15:04:42,163 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9968    0.9829    0.9898     32808
+                       Bot     0.9958    0.9995    0.9976     32924
+                      DDoS     0.9563    0.9995    0.9774     33055
+             DoS GoldenEye     0.9996    0.7133    0.8325     33200
+                  DoS Hulk     0.9902    0.9991    0.9947     32957
+          DoS Slowhttptest     0.9960    0.9949    0.9955     32943
+             DoS slowloris     0.9900    0.9945    0.9922     33249
+               FTP-Patator     0.9992    1.0000    0.9996     33287
+                Heartbleed     1.0000    1.0000    1.0000     32911
+              Infiltration     0.8128    1.0000    0.8968     33028
+                  PortScan     0.9993    0.9955    0.9974     32909
+               SSH-Patator     0.9958    0.9998    0.9978     32991
+  Web Attack � Brute Force     0.9662    0.1638    0.2801     32772
+Web Attack � Sql Injection     0.9652    1.0000    0.9823     33095
+          Web Attack � XSS     0.5504    0.9916    0.7079     32847
+
+                  accuracy                         0.9226    494976
+                 macro avg     0.9476    0.9223    0.9094    494976
+              weighted avg     0.9477    0.9226    0.9098    494976
+
+2024-05-06 15:04:42,163 INFO Validating loss: 1.8932893682518823
+2024-05-06 15:04:42,163 INFO Validating accuracy: 0.9225679628911301
+2024-05-06 15:04:42,338 INFO =================================================
+2024-05-06 15:04:42,338 INFO 
+[ TRAINING EPOCH 12 ]
+2024-05-06 15:12:26,975 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 15:13:17,404 INFO ---Classification Report---
+2024-05-06 15:13:17,404 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9975    0.9798    0.9885     32807
+                       Bot     0.9928    0.9998    0.9963     32926
+                      DDoS     0.9142    0.9995    0.9550     33052
+             DoS GoldenEye     0.9989    0.7145    0.8331     33201
+                  DoS Hulk     0.9902    0.9988    0.9945     32955
+          DoS Slowhttptest     0.9950    0.9950    0.9950     32943
+             DoS slowloris     0.9961    0.9927    0.9944     33246
+               FTP-Patator     0.9932    1.0000    0.9966     33289
+                Heartbleed     1.0000    1.0000    1.0000     32915
+              Infiltration     0.9317    1.0000    0.9646     33029
+                  PortScan     0.9869    0.9956    0.9913     32905
+               SSH-Patator     0.9122    0.9999    0.9541     32988
+  Web Attack � Brute Force     0.9264    0.1647    0.2796     32774
+Web Attack � Sql Injection     0.9684    1.0000    0.9839     33097
+          Web Attack � XSS     0.5499    0.9903    0.7072     32849
+
+                  accuracy                         0.9223    494976
+                 macro avg     0.9436    0.9220    0.9089    494976
+              weighted avg     0.9437    0.9223    0.9093    494976
+
+2024-05-06 15:13:17,404 INFO Validating loss: 1.8935268918519061
+2024-05-06 15:13:17,404 INFO Validating accuracy: 0.9223093644944401
+2024-05-06 15:13:17,404 INFO EarlyStopping counter: 1 out of 10
+2024-05-06 15:13:17,404 INFO Best loss is: 1.8932893682518823
+2024-05-06 15:13:17,404 INFO Best accuracy is: 0.9225679628911301
+2024-05-06 15:13:17,405 INFO =================================================
+2024-05-06 15:13:17,405 INFO 
+[ TRAINING EPOCH 13 ]
+2024-05-06 15:21:03,381 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 15:21:53,018 INFO ---Classification Report---
+2024-05-06 15:21:53,018 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9954    0.9873    0.9914     32806
+                       Bot     0.9987    0.9992    0.9990     32925
+                      DDoS     0.9820    0.9995    0.9907     33054
+             DoS GoldenEye     0.9992    0.7128    0.8321     33201
+                  DoS Hulk     0.9902    0.9991    0.9946     32956
+          DoS Slowhttptest     0.9956    0.9933    0.9944     32941
+             DoS slowloris     0.9521    0.9938    0.9725     33249
+               FTP-Patator     0.9999    1.0000    1.0000     33286
+                Heartbleed     1.0000    1.0000    1.0000     32915
+              Infiltration     0.8412    1.0000    0.9138     33030
+                  PortScan     0.9733    0.9956    0.9844     32905
+               SSH-Patator     0.9965    1.0000    0.9982     32990
+  Web Attack � Brute Force     0.9530    0.1644    0.2804     32774
+Web Attack � Sql Injection     0.9657    1.0000    0.9825     33097
+          Web Attack � XSS     0.5511    0.9931    0.7089     32847
+
+                  accuracy                         0.9228    494976
+                 macro avg     0.9463    0.9225    0.9095    494976
+              weighted avg     0.9464    0.9228    0.9098    494976
+
+2024-05-06 15:21:53,018 INFO Validating loss: 1.8930665720702142
+2024-05-06 15:21:53,018 INFO Validating accuracy: 0.9228083785880528
+2024-05-06 15:21:53,192 INFO =================================================
+2024-05-06 15:21:53,192 INFO 
+[ TRAINING EPOCH 14 ]
+2024-05-06 15:29:38,020 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 15:30:25,976 INFO ---Classification Report---
+2024-05-06 15:30:25,976 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9761    0.9881    0.9821     32808
+                       Bot     0.9988    0.9978    0.9983     32926
+                      DDoS     0.9876    0.9994    0.9934     33055
+             DoS GoldenEye     0.9997    0.7131    0.8324     33201
+                  DoS Hulk     0.9905    0.9991    0.9948     32952
+          DoS Slowhttptest     0.9966    0.9855    0.9910     32940
+             DoS slowloris     0.9870    0.9944    0.9907     33249
+               FTP-Patator     1.0000    1.0000    1.0000     33285
+                Heartbleed     1.0000    1.0000    1.0000     32915
+              Infiltration     0.9059    1.0000    0.9506     33029
+                  PortScan     0.9265    0.9956    0.9598     32908
+               SSH-Patator     0.9967    1.0000    0.9984     32990
+  Web Attack � Brute Force     0.9591    0.1615    0.2765     32776
+Web Attack � Sql Injection     0.9084    1.0000    0.9520     33097
+          Web Attack � XSS     0.5499    0.9938    0.7081     32845
+
+                  accuracy                         0.9222    494976
+                 macro avg     0.9455    0.9219    0.9085    494976
+              weighted avg     0.9457    0.9222    0.9089    494976
+
+2024-05-06 15:30:25,976 INFO Validating loss: 1.893708712190875
+2024-05-06 15:30:25,976 INFO Validating accuracy: 0.9221538013964313
+2024-05-06 15:30:25,976 INFO EarlyStopping counter: 1 out of 10
+2024-05-06 15:30:25,976 INFO Best loss is: 1.8930665720702142
+2024-05-06 15:30:25,976 INFO Best accuracy is: 0.9228083785880528
+2024-05-06 15:30:25,977 INFO =================================================
+2024-05-06 15:30:25,977 INFO 
+[ TRAINING EPOCH 15 ]
+2024-05-06 15:38:11,544 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 15:39:00,495 INFO ---Classification Report---
+2024-05-06 15:39:00,495 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9951    0.9877    0.9914     32806
+                       Bot     0.9987    0.9995    0.9991     32924
+                      DDoS     0.8032    0.9993    0.8906     33056
+             DoS GoldenEye     0.9993    0.7137    0.8327     33200
+                  DoS Hulk     0.9907    0.9987    0.9947     32955
+          DoS Slowhttptest     0.9875    0.9958    0.9917     32941
+             DoS slowloris     0.9933    0.9880    0.9906     33249
+               FTP-Patator     0.9999    1.0000    1.0000     33287
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     0.9962    1.0000    0.9981     33030
+                  PortScan     0.9823    0.9954    0.9888     32908
+               SSH-Patator     0.9968    1.0000    0.9984     32991
+  Web Attack � Brute Force     0.9708    0.1635    0.2799     32774
+Web Attack � Sql Injection     0.9589    1.0000    0.9790     33096
+          Web Attack � XSS     0.5507    0.9939    0.7087     32846
+
+                  accuracy                         0.9226    494976
+                 macro avg     0.9482    0.9224    0.9096    494976
+              weighted avg     0.9484    0.9226    0.9099    494976
+
+2024-05-06 15:39:00,495 INFO Validating loss: 1.893204665381316
+2024-05-06 15:39:00,496 INFO Validating accuracy: 0.9226265515903801
+2024-05-06 15:39:00,496 INFO EarlyStopping counter: 2 out of 10
+2024-05-06 15:39:00,496 INFO Best loss is: 1.8930665720702142
+2024-05-06 15:39:00,496 INFO Best accuracy is: 0.9228083785880528
+2024-05-06 15:39:00,496 INFO =================================================
+2024-05-06 15:39:00,496 INFO 
+[ TRAINING EPOCH 16 ]
+2024-05-06 15:46:44,354 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 15:47:33,687 INFO ---Classification Report---
+2024-05-06 15:47:33,687 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9983    0.9837    0.9909     32806
+                       Bot     0.9987    0.9995    0.9991     32926
+                      DDoS     0.9689    0.9995    0.9840     33055
+             DoS GoldenEye     0.9996    0.7140    0.8330     33200
+                  DoS Hulk     0.9896    0.9992    0.9944     32955
+          DoS Slowhttptest     0.9944    0.9958    0.9951     32940
+             DoS slowloris     0.9962    0.9926    0.9944     33250
+               FTP-Patator     0.9998    1.0000    0.9999     33288
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     0.9873    1.0000    0.9936     33030
+                  PortScan     0.8089    0.9956    0.8926     32907
+               SSH-Patator     0.9956    1.0000    0.9978     32992
+  Web Attack � Brute Force     0.9553    0.1632    0.2788     32771
+Web Attack � Sql Injection     0.9674    1.0000    0.9834     33096
+          Web Attack � XSS     0.5497    0.9939    0.7079     32847
+
+                  accuracy                         0.9227    494976
+                 macro avg     0.9473    0.9225    0.9097    494976
+              weighted avg     0.9475    0.9227    0.9100    494976
+
+2024-05-06 15:47:33,687 INFO Validating loss: 1.8930956321321226
+2024-05-06 15:47:33,687 INFO Validating accuracy: 0.9227437289888802
+2024-05-06 15:47:33,687 INFO EarlyStopping counter: 3 out of 10
+2024-05-06 15:47:33,687 INFO Best loss is: 1.8930665720702142
+2024-05-06 15:47:33,687 INFO Best accuracy is: 0.9228083785880528
+2024-05-06 15:47:33,687 INFO =================================================
+2024-05-06 15:47:33,687 INFO 
+[ TRAINING EPOCH 17 ]
+2024-05-06 15:55:16,461 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 15:56:05,633 INFO ---Classification Report---
+2024-05-06 15:56:05,633 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9956    0.9870    0.9912     32804
+                       Bot     0.9985    0.9994    0.9990     32926
+                      DDoS     0.9295    0.9994    0.9632     33055
+             DoS GoldenEye     0.9998    0.7139    0.8330     33201
+                  DoS Hulk     0.9902    0.9991    0.9946     32956
+          DoS Slowhttptest     0.9946    0.9960    0.9953     32941
+             DoS slowloris     0.9967    0.9936    0.9951     33249
+               FTP-Patator     0.9999    1.0000    1.0000     33287
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     1.0000    1.0000    1.0000     33029
+                  PortScan     0.9611    0.9956    0.9780     32905
+               SSH-Patator     0.8570    1.0000    0.9230     32990
+  Web Attack � Brute Force     0.9541    0.1650    0.2813     32776
+Web Attack � Sql Injection     0.9678    1.0000    0.9837     33095
+          Web Attack � XSS     0.5513    0.9932    0.7090     32848
+
+                  accuracy                         0.9231    494976
+                 macro avg     0.9464    0.9228    0.9098    494976
+              weighted avg     0.9466    0.9231    0.9101    494976
+
+2024-05-06 15:56:05,633 INFO Validating loss: 1.8927276635126824
+2024-05-06 15:56:05,633 INFO Validating accuracy: 0.9230811190845617
+2024-05-06 15:56:05,819 INFO =================================================
+2024-05-06 15:56:05,820 INFO 
+[ TRAINING EPOCH 18 ]
+2024-05-06 16:03:50,829 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 16:04:39,797 INFO ---Classification Report---
+2024-05-06 16:04:39,797 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9950    0.9874    0.9912     32806
+                       Bot     0.9983    0.9996    0.9990     32927
+                      DDoS     0.8522    0.9995    0.9200     33056
+             DoS GoldenEye     0.9997    0.7142    0.8332     33201
+                  DoS Hulk     0.9748    0.9992    0.9869     32950
+          DoS Slowhttptest     0.9953    0.9957    0.9955     32942
+             DoS slowloris     0.9748    0.9933    0.9840     33250
+               FTP-Patator     0.9998    1.0000    0.9999     33288
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.9962    1.0000    0.9981     33028
+                  PortScan     0.9393    0.9956    0.9666     32908
+               SSH-Patator     0.9967    0.9999    0.9983     32990
+  Web Attack � Brute Force     0.9580    0.1636    0.2795     32774
+Web Attack � Sql Injection     0.9680    1.0000    0.9837     33095
+          Web Attack � XSS     0.5511    0.9939    0.7090     32847
+
+                  accuracy                         0.9231    494976
+                 macro avg     0.9466    0.9228    0.9097    494976
+              weighted avg     0.9468    0.9231    0.9100    494976
+
+2024-05-06 16:04:39,797 INFO Validating loss: 1.892722182567341
+2024-05-06 16:04:39,797 INFO Validating accuracy: 0.923056875484872
+2024-05-06 16:04:40,006 INFO =================================================
+2024-05-06 16:04:40,006 INFO 
+[ TRAINING EPOCH 19 ]
+2024-05-06 16:12:33,948 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 16:13:23,755 INFO ---Classification Report---
+2024-05-06 16:13:23,756 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9909    0.9881    0.9895     32808
+                       Bot     0.9981    0.9996    0.9988     32926
+                      DDoS     0.8191    0.9995    0.9004     33055
+             DoS GoldenEye     0.9996    0.7129    0.8323     33198
+                  DoS Hulk     0.9906    0.9992    0.9949     32957
+          DoS Slowhttptest     0.9947    0.9961    0.9954     32940
+             DoS slowloris     0.9969    0.9932    0.9950     33249
+               FTP-Patator     0.9999    1.0000    1.0000     33289
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     0.9997    1.0000    0.9998     33027
+                  PortScan     0.9715    0.9956    0.9834     32909
+               SSH-Patator     0.9715    1.0000    0.9856     32989
+  Web Attack � Brute Force     0.5072    0.9663    0.6652     32776
+Web Attack � Sql Injection     0.9664    1.0000    0.9829     33092
+          Web Attack � XSS     0.9670    0.0678    0.1267     32848
+
+                  accuracy                         0.9147    494976
+                 macro avg     0.9449    0.9146    0.8967    494976
+              weighted avg     0.9451    0.9147    0.8970    494976
+
+2024-05-06 16:13:23,756 INFO Validating loss: 1.9010806461005731
+2024-05-06 16:13:23,756 INFO Validating accuracy: 0.914739300491337
+2024-05-06 16:13:23,756 INFO EarlyStopping counter: 1 out of 10
+2024-05-06 16:13:23,756 INFO Best loss is: 1.892722182567341
+2024-05-06 16:13:23,756 INFO Best accuracy is: 0.923056875484872
+2024-05-06 16:13:23,757 INFO =================================================
+2024-05-06 16:13:23,757 INFO 
+[ TRAINING EPOCH 20 ]
+2024-05-06 16:21:13,749 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 16:22:02,873 INFO ---Classification Report---
+2024-05-06 16:22:02,873 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9966    0.9882    0.9924     32805
+                       Bot     0.9985    0.9995    0.9990     32923
+                      DDoS     0.8644    0.9995    0.9270     33054
+             DoS GoldenEye     0.9996    0.7130    0.8323     33200
+                  DoS Hulk     0.9907    0.9992    0.9949     32955
+          DoS Slowhttptest     0.9942    0.9959    0.9950     32942
+             DoS slowloris     0.9887    0.9931    0.9909     33249
+               FTP-Patator     0.9554    1.0000    0.9772     33287
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.9375    1.0000    0.9678     33030
+                  PortScan     0.9995    0.9956    0.9975     32907
+               SSH-Patator     0.9967    1.0000    0.9983     32991
+  Web Attack � Brute Force     0.9545    0.1651    0.2815     32775
+Web Attack � Sql Injection     0.9672    1.0000    0.9833     33096
+          Web Attack � XSS     0.5512    0.9935    0.7090     32848
+
+                  accuracy                         0.9231    494976
+                 macro avg     0.9463    0.9228    0.9098    494976
+              weighted avg     0.9464    0.9231    0.9101    494976
+
+2024-05-06 16:22:02,873 INFO Validating loss: 1.892729807769355
+2024-05-06 16:22:02,873 INFO Validating accuracy: 0.9231033423842773
+2024-05-06 16:22:02,873 INFO EarlyStopping counter: 2 out of 10
+2024-05-06 16:22:02,873 INFO Best loss is: 1.892722182567341
+2024-05-06 16:22:02,873 INFO Best accuracy is: 0.923056875484872
+2024-05-06 16:22:02,874 INFO =================================================
+2024-05-06 16:22:02,874 INFO 
+[ TRAINING EPOCH 21 ]
+2024-05-06 16:29:48,109 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 16:30:36,350 INFO ---Classification Report---
+2024-05-06 16:30:36,350 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9799    0.9890    0.9845     32807
+                       Bot     0.9989    0.9995    0.9992     32926
+                      DDoS     0.9989    0.9995    0.9992     33054
+             DoS GoldenEye     0.9996    0.7133    0.8325     33200
+                  DoS Hulk     0.9905    0.9992    0.9948     32954
+          DoS Slowhttptest     0.9951    0.9959    0.9955     32942
+             DoS slowloris     0.9969    0.9933    0.9951     33249
+               FTP-Patator     0.9704    1.0000    0.9850     33286
+                Heartbleed     1.0000    1.0000    1.0000     32912
+              Infiltration     0.8179    1.0000    0.8998     33031
+                  PortScan     0.9904    0.9956    0.9930     32906
+               SSH-Patator     0.9968    1.0000    0.9984     32991
+  Web Attack � Brute Force     0.9677    0.1645    0.2811     32775
+Web Attack � Sql Injection     0.9650    1.0000    0.9822     33096
+          Web Attack � XSS     0.5517    0.9939    0.7095     32847
+
+                  accuracy                         0.9232    494976
+                 macro avg     0.9480    0.9229    0.9100    494976
+              weighted avg     0.9481    0.9232    0.9103    494976
+
+2024-05-06 16:30:36,350 INFO Validating loss: 1.8926216827858193
+2024-05-06 16:30:36,350 INFO Validating accuracy: 0.9231700122834239
+2024-05-06 16:30:36,556 INFO =================================================
+2024-05-06 16:30:36,556 INFO 
+[ TRAINING EPOCH 22 ]
+2024-05-06 16:38:27,328 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 16:39:17,998 INFO ---Classification Report---
+2024-05-06 16:39:17,998 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9964    0.9886    0.9925     32806
+                       Bot     0.9986    0.9996    0.9991     32926
+                      DDoS     0.9928    0.9996    0.9962     33052
+             DoS GoldenEye     0.9996    0.7144    0.8333     33200
+                  DoS Hulk     0.9906    0.9992    0.9949     32956
+          DoS Slowhttptest     0.9843    0.9966    0.9904     32943
+             DoS slowloris     0.9975    0.9931    0.9953     33249
+               FTP-Patator     0.8861    1.0000    0.9396     33286
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     1.0000    1.0000    1.0000     33028
+                  PortScan     0.9757    0.9956    0.9856     32909
+               SSH-Patator     0.8997    1.0000    0.9472     32990
+  Web Attack � Brute Force     0.9568    0.1648    0.2811     32776
+Web Attack � Sql Injection     0.9676    1.0000    0.9835     33093
+          Web Attack � XSS     0.5518    0.9938    0.7096     32848
+
+                  accuracy                         0.9233    494976
+                 macro avg     0.9465    0.9230    0.9099    494976
+              weighted avg     0.9466    0.9233    0.9102    494976
+
+2024-05-06 16:39:17,998 INFO Validating loss: 1.8925339705820134
+2024-05-06 16:39:17,998 INFO Validating accuracy: 0.9232791084820274
+2024-05-06 16:39:18,193 INFO =================================================
+2024-05-06 16:39:18,193 INFO 
+[ TRAINING EPOCH 23 ]
+2024-05-06 16:47:14,628 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 16:48:04,149 INFO ---Classification Report---
+2024-05-06 16:48:04,149 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9968    0.9883    0.9925     32807
+                       Bot     0.9988    0.9996    0.9992     32926
+                      DDoS     0.9317    0.9995    0.9644     33054
+             DoS GoldenEye     0.9998    0.7145    0.8334     33200
+                  DoS Hulk     0.9903    0.9992    0.9948     32954
+          DoS Slowhttptest     0.9956    0.9954    0.9955     32941
+             DoS slowloris     0.9923    0.9948    0.9935     33250
+               FTP-Patator     0.9924    1.0000    0.9962     33289
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.8388    1.0000    0.9124     33029
+                  PortScan     0.9971    0.9956    0.9964     32907
+               SSH-Patator     0.9968    1.0000    0.9984     32991
+  Web Attack � Brute Force     0.9560    0.1643    0.2804     32774
+Web Attack � Sql Injection     0.9684    1.0000    0.9839     33094
+          Web Attack � XSS     0.5515    0.9939    0.7094     32846
+
+                  accuracy                         0.9233    494976
+                 macro avg     0.9471    0.9230    0.9100    494976
+              weighted avg     0.9472    0.9233    0.9104    494976
+
+2024-05-06 16:48:04,149 INFO Validating loss: 1.8925055867484413
+2024-05-06 16:48:04,149 INFO Validating accuracy: 0.9232791084820274
+2024-05-06 16:48:04,349 INFO =================================================
+2024-05-06 16:48:04,349 INFO 
+[ TRAINING EPOCH 24 ]
+2024-05-06 16:55:44,838 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 16:56:33,839 INFO ---Classification Report---
+2024-05-06 16:56:33,840 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9951    0.9875    0.9913     32805
+                       Bot     0.9982    0.9996    0.9989     32924
+                      DDoS     0.8516    0.9995    0.9196     33056
+             DoS GoldenEye     0.9995    0.7146    0.8334     33199
+                  DoS Hulk     0.9906    0.9992    0.9949     32955
+          DoS Slowhttptest     0.9961    0.9953    0.9957     32942
+             DoS slowloris     0.9965    0.9945    0.9955     33247
+               FTP-Patator     0.9532    1.0000    0.9761     33288
+                Heartbleed     1.0000    1.0000    1.0000     32915
+              Infiltration     0.9483    1.0000    0.9734     33030
+                  PortScan     0.9990    0.9956    0.9973     32905
+               SSH-Patator     0.9968    1.0000    0.9984     32991
+  Web Attack � Brute Force     0.9572    0.1643    0.2805     32775
+Web Attack � Sql Injection     0.9676    1.0000    0.9835     33096
+          Web Attack � XSS     0.5510    0.9930    0.7087     32848
+
+                  accuracy                         0.9231    494976
+                 macro avg     0.9467    0.9229    0.9098    494976
+              weighted avg     0.9468    0.9231    0.9101    494976
+
+2024-05-06 16:56:33,840 INFO Validating loss: 1.8926541096546992
+2024-05-06 16:56:33,840 INFO Validating accuracy: 0.9231417280837859
+2024-05-06 16:56:33,840 INFO EarlyStopping counter: 1 out of 10
+2024-05-06 16:56:33,840 INFO Best loss is: 1.8925055867484413
+2024-05-06 16:56:33,840 INFO Best accuracy is: 0.9232791084820274
+2024-05-06 16:56:33,840 INFO =================================================
+2024-05-06 16:56:33,840 INFO 
+[ TRAINING EPOCH 25 ]
+2024-05-06 17:04:26,778 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 17:05:16,174 INFO ---Classification Report---
+2024-05-06 17:05:16,174 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9962    0.9889    0.9925     32807
+                       Bot     0.9984    0.9995    0.9989     32926
+                      DDoS     0.8474    0.9996    0.9172     33056
+             DoS GoldenEye     0.9994    0.7144    0.8332     33198
+                  DoS Hulk     0.9907    0.9992    0.9949     32953
+          DoS Slowhttptest     0.9954    0.9955    0.9954     32942
+             DoS slowloris     0.9962    0.9946    0.9954     33249
+               FTP-Patator     0.9372    1.0000    0.9676     33288
+                Heartbleed     1.0000    1.0000    1.0000     32912
+              Infiltration     0.9956    1.0000    0.9978     33028
+                  PortScan     0.9734    0.9956    0.9844     32909
+               SSH-Patator     0.9982    0.9999    0.9991     32991
+  Web Attack � Brute Force     0.9588    0.1648    0.2812     32773
+Web Attack � Sql Injection     0.9683    1.0000    0.9839     33096
+          Web Attack � XSS     0.5512    0.9938    0.7091     32848
+
+                  accuracy                         0.9233    494976
+                 macro avg     0.9471    0.9230    0.9100    494976
+              weighted avg     0.9472    0.9233    0.9104    494976
+
+2024-05-06 17:05:16,174 INFO Validating loss: 1.8925180560031356
+2024-05-06 17:05:16,174 INFO Validating accuracy: 0.923315473881562
+2024-05-06 17:05:16,174 INFO EarlyStopping counter: 2 out of 10
+2024-05-06 17:05:16,174 INFO Best loss is: 1.8925055867484413
+2024-05-06 17:05:16,174 INFO Best accuracy is: 0.9232791084820274
+2024-05-06 17:05:16,175 INFO =================================================
+2024-05-06 17:05:16,175 INFO 
+[ TRAINING EPOCH 26 ]
+2024-05-06 17:13:08,283 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 17:13:58,140 INFO ---Classification Report---
+2024-05-06 17:13:58,140 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9970    0.9886    0.9928     32804
+                       Bot     0.9987    0.9994    0.9991     32926
+                      DDoS     0.8931    0.9996    0.9434     33055
+             DoS GoldenEye     0.9996    0.7147    0.8335     33199
+                  DoS Hulk     0.9903    0.9991    0.9947     32956
+          DoS Slowhttptest     0.9931    0.9961    0.9946     32943
+             DoS slowloris     0.9966    0.9926    0.9946     33248
+               FTP-Patator     0.9999    1.0000    1.0000     33288
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.8627    1.0000    0.9263     33030
+                  PortScan     0.9994    0.9956    0.9975     32907
+               SSH-Patator     0.9977    1.0000    0.9988     32989
+  Web Attack � Brute Force     0.9083    0.1684    0.2841     32776
+Web Attack � Sql Injection     0.9684    1.0000    0.9840     33094
+          Web Attack � XSS     0.5503    0.9848    0.7061     32847
+
+                  accuracy                         0.9229    494976
+                 macro avg     0.9437    0.9226    0.9100    494976
+              weighted avg     0.9438    0.9229    0.9103    494976
+
+2024-05-06 17:13:58,140 INFO Validating loss: 1.892945750387935
+2024-05-06 17:13:58,140 INFO Validating accuracy: 0.922854845487458
+2024-05-06 17:13:58,140 INFO EarlyStopping counter: 3 out of 10
+2024-05-06 17:13:58,140 INFO Best loss is: 1.8925055867484413
+2024-05-06 17:13:58,140 INFO Best accuracy is: 0.9232791084820274
+2024-05-06 17:13:58,141 INFO =================================================
+2024-05-06 17:13:58,141 INFO 
+[ TRAINING EPOCH 27 ]
+2024-05-06 17:21:50,422 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 17:22:39,864 INFO ---Classification Report---
+2024-05-06 17:22:39,864 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9965    0.9877    0.9921     32806
+                       Bot     0.9985    0.9995    0.9990     32926
+                      DDoS     0.9891    0.9996    0.9943     33055
+             DoS GoldenEye     0.9993    0.7149    0.8335     33200
+                  DoS Hulk     0.9903    0.9992    0.9948     32955
+          DoS Slowhttptest     0.9948    0.9961    0.9955     32940
+             DoS slowloris     0.9647    0.9944    0.9794     33247
+               FTP-Patator     0.8118    1.0000    0.8961     33288
+                Heartbleed     1.0000    1.0000    1.0000     32910
+              Infiltration     0.9986    1.0000    0.9993     33031
+                  PortScan     0.9995    0.9956    0.9975     32907
+               SSH-Patator     0.9969    1.0000    0.9984     32992
+  Web Attack � Brute Force     0.9580    0.1648    0.2812     32775
+Web Attack � Sql Injection     0.9683    1.0000    0.9839     33096
+          Web Attack � XSS     0.5518    0.9938    0.7096     32848
+
+                  accuracy                         0.9233    494976
+                 macro avg     0.9479    0.9230    0.9103    494976
+              weighted avg     0.9479    0.9233    0.9106    494976
+
+2024-05-06 17:22:39,864 INFO Validating loss: 1.8925035675274238
+2024-05-06 17:22:39,864 INFO Validating accuracy: 0.9233033520817171
+2024-05-06 17:22:40,017 INFO =================================================
+2024-05-06 17:22:40,017 INFO 
+[ TRAINING EPOCH 28 ]
+2024-05-06 17:30:32,017 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 17:31:22,354 INFO ---Classification Report---
+2024-05-06 17:31:22,354 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9973    0.9847    0.9910     32807
+                       Bot     0.9956    0.9998    0.9977     32927
+                      DDoS     0.9995    0.9995    0.9995     33055
+             DoS GoldenEye     0.9997    0.7145    0.8334     33201
+                  DoS Hulk     0.9907    0.9992    0.9949     32954
+          DoS Slowhttptest     0.9960    0.9955    0.9957     32942
+             DoS slowloris     0.9842    0.9950    0.9896     33247
+               FTP-Patator     0.9999    1.0000    1.0000     33286
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     0.8389    1.0000    0.9124     33028
+                  PortScan     0.9662    0.9956    0.9807     32908
+               SSH-Patator     0.9975    1.0000    0.9988     32990
+  Web Attack � Brute Force     0.9529    0.1649    0.2811     32775
+Web Attack � Sql Injection     0.9314    1.0000    0.9645     33096
+          Web Attack � XSS     0.5514    0.9937    0.7092     32847
+
+                  accuracy                         0.9231    494976
+                 macro avg     0.9467    0.9228    0.9099    494976
+              weighted avg     0.9469    0.9231    0.9102    494976
+
+2024-05-06 17:31:22,354 INFO Validating loss: 1.892736511049204
+2024-05-06 17:31:22,354 INFO Validating accuracy: 0.9230932408844065
+2024-05-06 17:31:22,354 INFO EarlyStopping counter: 1 out of 10
+2024-05-06 17:31:22,354 INFO Best loss is: 1.8925035675274238
+2024-05-06 17:31:22,354 INFO Best accuracy is: 0.9233033520817171
+2024-05-06 17:31:22,355 INFO =================================================
+2024-05-06 17:31:22,355 INFO 
+[ TRAINING EPOCH 29 ]
+2024-05-06 17:39:17,562 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 17:40:06,820 INFO ---Classification Report---
+2024-05-06 17:40:06,820 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9911    0.9884    0.9898     32808
+                       Bot     0.9979    0.9996    0.9988     32925
+                      DDoS     0.9995    0.9995    0.9995     33054
+             DoS GoldenEye     0.9995    0.7146    0.8334     33200
+                  DoS Hulk     0.9905    0.9992    0.9948     32957
+          DoS Slowhttptest     0.9943    0.9961    0.9952     32940
+             DoS slowloris     0.9968    0.9942    0.9955     33249
+               FTP-Patator     1.0000    1.0000    1.0000     33287
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     0.7859    1.0000    0.8801     33030
+                  PortScan     0.9995    0.9956    0.9975     32907
+               SSH-Patator     0.9968    1.0000    0.9984     32990
+  Web Attack � Brute Force     0.9530    0.1653    0.2818     32774
+Web Attack � Sql Injection     0.9686    1.0000    0.9841     33094
+          Web Attack � XSS     0.5519    0.9935    0.7096     32848
+
+                  accuracy                         0.9233    494976
+                 macro avg     0.9484    0.9231    0.9106    494976
+              weighted avg     0.9485    0.9233    0.9109    494976
+
+2024-05-06 17:40:06,820 INFO Validating loss: 1.8924920682547042
+2024-05-06 17:40:06,820 INFO Validating accuracy: 0.9233376971812775
+2024-05-06 17:40:07,004 INFO =================================================
+2024-05-06 17:40:07,004 INFO 
+[ TRAINING EPOCH 30 ]
+2024-05-06 17:48:02,791 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 17:48:51,543 INFO ---Classification Report---
+2024-05-06 17:48:51,543 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9885    0.9890    0.9888     32808
+                       Bot     0.9989    0.9995    0.9992     32924
+                      DDoS     0.9991    0.9995    0.9993     33055
+             DoS GoldenEye     0.9996    0.7144    0.8333     33199
+                  DoS Hulk     0.9909    0.9992    0.9950     32957
+          DoS Slowhttptest     0.9953    0.9958    0.9955     32943
+             DoS slowloris     0.9578    0.9947    0.9759     33248
+               FTP-Patator     1.0000    1.0000    1.0000     33288
+                Heartbleed     1.0000    1.0000    1.0000     32912
+              Infiltration     0.9923    1.0000    0.9961     33024
+                  PortScan     0.8168    0.9956    0.8974     32908
+               SSH-Patator     0.9960    1.0000    0.9980     32991
+  Web Attack � Brute Force     0.9562    0.1646    0.2809     32775
+Web Attack � Sql Injection     0.9679    1.0000    0.9837     33095
+          Web Attack � XSS     0.5519    0.9938    0.7097     32849
+
+                  accuracy                         0.9233    494976
+                 macro avg     0.9474    0.9231    0.9102    494976
+              weighted avg     0.9476    0.9233    0.9105    494976
+
+2024-05-06 17:48:51,543 INFO Validating loss: 1.8924587087974025
+2024-05-06 17:48:51,543 INFO Validating accuracy: 0.9233356768813034
+2024-05-06 17:48:51,773 INFO =================================================
+2024-05-06 17:48:51,773 INFO 
+[ TRAINING EPOCH 31 ]
+2024-05-06 17:58:15,567 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 17:59:41,650 INFO ---Classification Report---
+2024-05-06 17:59:41,650 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9960    0.9898    0.9929     32806
+                       Bot     0.9990    0.9995    0.9992     32925
+                      DDoS     0.7832    0.9993    0.8782     33054
+             DoS GoldenEye     0.9997    0.7149    0.8336     33198
+                  DoS Hulk     0.9909    0.9992    0.9950     32955
+          DoS Slowhttptest     0.9951    0.9961    0.9956     32940
+             DoS slowloris     0.9963    0.9942    0.9952     33250
+               FTP-Patator     1.0000    1.0000    1.0000     33287
+                Heartbleed     1.0000    1.0000    1.0000     32915
+              Infiltration     1.0000    1.0000    1.0000     33031
+                  PortScan     0.9986    0.9956    0.9971     32907
+               SSH-Patator     0.9980    1.0000    0.9990     32991
+  Web Attack � Brute Force     0.9566    0.1654    0.2820     32775
+Web Attack � Sql Injection     0.9688    1.0000    0.9841     33096
+          Web Attack � XSS     0.5512    0.9937    0.7091     32846
+
+                  accuracy                         0.9234    494976
+                 macro avg     0.9489    0.9232    0.9107    494976
+              weighted avg     0.9490    0.9234    0.9111    494976
+
+2024-05-06 17:59:41,650 INFO Validating loss: 1.892340191673918
+2024-05-06 17:59:41,650 INFO Validating accuracy: 0.9234407324799586
+2024-05-06 17:59:41,890 INFO =================================================
+2024-05-06 17:59:41,890 INFO 
+[ TRAINING EPOCH 32 ]
+2024-05-06 18:11:31,446 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 18:12:56,516 INFO ---Classification Report---
+2024-05-06 18:12:56,516 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9960    0.9892    0.9926     32804
+                       Bot     0.9990    0.9992    0.9991     32927
+                      DDoS     0.9697    0.9995    0.9844     33056
+             DoS GoldenEye     0.9997    0.7127    0.8322     33199
+                  DoS Hulk     0.9906    0.9992    0.9949     32955
+          DoS Slowhttptest     0.9911    0.9957    0.9934     32940
+             DoS slowloris     0.9962    0.9903    0.9932     33248
+               FTP-Patator     1.0000    1.0000    1.0000     33288
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.9975    1.0000    0.9988     33029
+                  PortScan     0.9876    0.9956    0.9916     32908
+               SSH-Patator     0.8102    1.0000    0.8951     32991
+  Web Attack � Brute Force     0.9527    0.1652    0.2816     32773
+Web Attack � Sql Injection     0.9670    1.0000    0.9832     33096
+          Web Attack � XSS     0.5512    0.9936    0.7090     32848
+
+                  accuracy                         0.9230    494976
+                 macro avg     0.9472    0.9227    0.9099    494976
+              weighted avg     0.9474    0.9230    0.9103    494976
+
+2024-05-06 18:12:56,516 INFO Validating loss: 1.8928428542438267
+2024-05-06 18:12:56,516 INFO Validating accuracy: 0.922955860486165
+2024-05-06 18:12:56,516 INFO EarlyStopping counter: 1 out of 10
+2024-05-06 18:12:56,516 INFO Best loss is: 1.892340191673918
+2024-05-06 18:12:56,516 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 18:12:56,522 INFO =================================================
+2024-05-06 18:12:56,522 INFO 
+[ TRAINING EPOCH 33 ]
+2024-05-06 18:24:42,801 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 18:26:07,843 INFO ---Classification Report---
+2024-05-06 18:26:07,843 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9972    0.9870    0.9921     32807
+                       Bot     0.9968    0.9997    0.9982     32925
+                      DDoS     0.8468    0.9995    0.9169     33054
+             DoS GoldenEye     0.9999    0.7141    0.8331     33200
+                  DoS Hulk     0.9907    0.9992    0.9949     32956
+          DoS Slowhttptest     0.9951    0.9958    0.9954     32942
+             DoS slowloris     0.9961    0.9946    0.9954     33248
+               FTP-Patator     0.9834    1.0000    0.9916     33287
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.9964    1.0000    0.9982     33030
+                  PortScan     0.9274    0.9956    0.9603     32907
+               SSH-Patator     0.9976    1.0000    0.9988     32990
+  Web Attack � Brute Force     0.9567    0.1652    0.2818     32774
+Web Attack � Sql Injection     0.9682    1.0000    0.9839     33096
+          Web Attack � XSS     0.5514    0.9939    0.7092     32846
+
+                  accuracy                         0.9232    494976
+                 macro avg     0.9469    0.9230    0.9100    494976
+              weighted avg     0.9470    0.9232    0.9103    494976
+
+2024-05-06 18:26:07,843 INFO Validating loss: 1.8925428956184456
+2024-05-06 18:26:07,843 INFO Validating accuracy: 0.9232346618825963
+2024-05-06 18:26:07,843 INFO EarlyStopping counter: 2 out of 10
+2024-05-06 18:26:07,843 INFO Best loss is: 1.892340191673918
+2024-05-06 18:26:07,843 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 18:26:07,846 INFO =================================================
+2024-05-06 18:26:07,846 INFO 
+[ TRAINING EPOCH 34 ]
+2024-05-06 18:37:55,542 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 18:39:21,066 INFO ---Classification Report---
+2024-05-06 18:39:21,066 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9970    0.9891    0.9930     32806
+                       Bot     0.9984    0.9995    0.9989     32926
+                      DDoS     0.8801    0.9995    0.9360     33054
+             DoS GoldenEye     0.9995    0.7149    0.8336     33199
+                  DoS Hulk     0.9909    0.9992    0.9950     32952
+          DoS Slowhttptest     0.9951    0.9962    0.9956     32943
+             DoS slowloris     0.9970    0.9941    0.9955     33248
+               FTP-Patator     0.9900    1.0000    0.9950     33286
+                Heartbleed     1.0000    1.0000    1.0000     32915
+              Infiltration     0.9963    1.0000    0.9982     33029
+                  PortScan     0.9044    0.9956    0.9478     32908
+               SSH-Patator     0.9775    1.0000    0.9886     32990
+  Web Attack � Brute Force     0.9559    0.1652    0.2816     32775
+Web Attack � Sql Injection     0.9630    1.0000    0.9812     33097
+          Web Attack � XSS     0.5520    0.9936    0.7097     32848
+
+                  accuracy                         0.9234    494976
+                 macro avg     0.9465    0.9231    0.9100    494976
+              weighted avg     0.9466    0.9234    0.9103    494976
+
+2024-05-06 18:39:21,066 INFO Validating loss: 1.8924050348687302
+2024-05-06 18:39:21,066 INFO Validating accuracy: 0.9233841640806827
+2024-05-06 18:39:21,066 INFO EarlyStopping counter: 3 out of 10
+2024-05-06 18:39:21,066 INFO Best loss is: 1.892340191673918
+2024-05-06 18:39:21,066 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 18:39:21,066 INFO =================================================
+2024-05-06 18:39:21,066 INFO 
+[ TRAINING EPOCH 35 ]
+2024-05-06 18:51:08,227 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 18:52:33,284 INFO ---Classification Report---
+2024-05-06 18:52:33,284 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9975    0.9890    0.9932     32803
+                       Bot     0.9988    0.9995    0.9991     32927
+                      DDoS     0.9992    0.9996    0.9994     33056
+             DoS GoldenEye     0.9992    0.7149    0.8334     33201
+                  DoS Hulk     0.9904    0.9992    0.9948     32955
+          DoS Slowhttptest     0.9958    0.9954    0.9956     32941
+             DoS slowloris     0.9960    0.9950    0.9955     33247
+               FTP-Patator     1.0000    1.0000    1.0000     33287
+                Heartbleed     1.0000    1.0000    1.0000     32915
+              Infiltration     0.9909    1.0000    0.9954     33031
+                  PortScan     0.7965    0.9956    0.8850     32906
+               SSH-Patator     0.9864    1.0000    0.9931     32988
+  Web Attack � Brute Force     0.9654    0.1650    0.2818     32775
+Web Attack � Sql Injection     0.9638    1.0000    0.9816     33097
+          Web Attack � XSS     0.5510    0.9937    0.7089     32847
+
+                  accuracy                         0.9234    494976
+                 macro avg     0.9487    0.9231    0.9105    494976
+              weighted avg     0.9489    0.9234    0.9108    494976
+
+2024-05-06 18:52:33,285 INFO Validating loss: 1.8924075974831138
+2024-05-06 18:52:33,285 INFO Validating accuracy: 0.9233801234807344
+2024-05-06 18:52:33,285 INFO EarlyStopping counter: 4 out of 10
+2024-05-06 18:52:33,285 INFO Best loss is: 1.892340191673918
+2024-05-06 18:52:33,285 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 18:52:33,286 INFO =================================================
+2024-05-06 18:52:33,286 INFO 
+[ TRAINING EPOCH 36 ]
+2024-05-06 19:04:20,795 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 19:05:45,047 INFO ---Classification Report---
+2024-05-06 19:05:45,047 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9966    0.9893    0.9929     32806
+                       Bot     0.9988    0.9995    0.9991     32925
+                      DDoS     0.9992    0.9995    0.9993     33053
+             DoS GoldenEye     0.9996    0.7141    0.8331     33201
+                  DoS Hulk     0.9909    0.9992    0.9950     32957
+          DoS Slowhttptest     0.9953    0.9961    0.9957     32939
+             DoS slowloris     0.9967    0.9941    0.9954     33248
+               FTP-Patator     0.9515    1.0000    0.9751     33288
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.8414    1.0000    0.9139     33028
+                  PortScan     0.9665    0.9956    0.9808     32908
+               SSH-Patator     0.9980    1.0000    0.9990     32990
+  Web Attack � Brute Force     0.9503    0.1656    0.2821     32774
+Web Attack � Sql Injection     0.9631    1.0000    0.9812     33096
+          Web Attack � XSS     0.5509    0.9918    0.7083     32849
+
+                  accuracy                         0.9232    494976
+                 macro avg     0.9466    0.9230    0.9101    494976
+              weighted avg     0.9467    0.9232    0.9104    494976
+
+2024-05-06 19:05:45,047 INFO Validating loss: 1.8925329852788553
+2024-05-06 19:05:45,047 INFO Validating accuracy: 0.9232467836824412
+2024-05-06 19:05:45,047 INFO EarlyStopping counter: 5 out of 10
+2024-05-06 19:05:45,047 INFO Best loss is: 1.892340191673918
+2024-05-06 19:05:45,047 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 19:05:45,048 INFO =================================================
+2024-05-06 19:05:45,048 INFO 
+[ TRAINING EPOCH 37 ]
+2024-05-06 19:17:32,728 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 19:18:58,495 INFO ---Classification Report---
+2024-05-06 19:18:58,495 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9967    0.9897    0.9932     32806
+                       Bot     0.9990    0.9996    0.9993     32923
+                      DDoS     0.9741    0.9993    0.9866     33055
+             DoS GoldenEye     0.9997    0.7133    0.8326     33199
+                  DoS Hulk     0.9909    0.9992    0.9950     32957
+          DoS Slowhttptest     0.9903    0.9956    0.9930     32940
+             DoS slowloris     0.9419    0.9892    0.9649     33249
+               FTP-Patator     0.9998    1.0000    0.9999     33289
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     0.9313    1.0000    0.9645     33031
+                  PortScan     0.9954    0.9956    0.9955     32907
+               SSH-Patator     0.9163    0.9999    0.9563     32991
+  Web Attack � Brute Force     0.9551    0.1650    0.2814     32774
+Web Attack � Sql Injection     0.9413    1.0000    0.9698     33095
+          Web Attack � XSS     0.5515    0.9936    0.7093     32847
+
+                  accuracy                         0.9229    494976
+                 macro avg     0.9456    0.9227    0.9094    494976
+              weighted avg     0.9457    0.9229    0.9097    494976
+
+2024-05-06 19:18:58,495 INFO Validating loss: 1.89284677800819
+2024-05-06 19:18:58,495 INFO Validating accuracy: 0.9229356574864236
+2024-05-06 19:18:58,495 INFO EarlyStopping counter: 6 out of 10
+2024-05-06 19:18:58,495 INFO Best loss is: 1.892340191673918
+2024-05-06 19:18:58,495 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 19:18:58,495 INFO =================================================
+2024-05-06 19:18:58,495 INFO 
+[ TRAINING EPOCH 38 ]
+2024-05-06 19:30:45,475 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 19:32:11,070 INFO ---Classification Report---
+2024-05-06 19:32:11,070 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9904    0.9889    0.9896     32806
+                       Bot     0.9986    0.9994    0.9990     32925
+                      DDoS     0.9995    0.9996    0.9995     33055
+             DoS GoldenEye     0.9996    0.7145    0.8333     33201
+                  DoS Hulk     0.9908    0.9992    0.9950     32955
+          DoS Slowhttptest     0.9955    0.9955    0.9955     32941
+             DoS slowloris     0.9963    0.9948    0.9955     33250
+               FTP-Patator     1.0000    1.0000    1.0000     33288
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.7898    1.0000    0.8825     33031
+                  PortScan     0.9937    0.9956    0.9947     32909
+               SSH-Patator     0.9982    1.0000    0.9991     32989
+  Web Attack � Brute Force     0.9546    0.1655    0.2821     32773
+Web Attack � Sql Injection     0.9681    1.0000    0.9838     33094
+          Web Attack � XSS     0.5512    0.9933    0.7090     32845
+
+                  accuracy                         0.9233    494976
+                 macro avg     0.9484    0.9231    0.9106    494976
+              weighted avg     0.9486    0.9233    0.9109    494976
+
+2024-05-06 19:32:11,070 INFO Validating loss: 1.8924839119902561
+2024-05-06 19:32:11,070 INFO Validating accuracy: 0.9233498189811223
+2024-05-06 19:32:11,070 INFO EarlyStopping counter: 7 out of 10
+2024-05-06 19:32:11,070 INFO Best loss is: 1.892340191673918
+2024-05-06 19:32:11,070 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 19:32:11,070 INFO =================================================
+2024-05-06 19:32:11,070 INFO 
+[ TRAINING EPOCH 39 ]
+2024-05-06 19:43:58,409 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 19:45:23,400 INFO ---Classification Report---
+2024-05-06 19:45:23,400 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9974    0.9890    0.9932     32804
+                       Bot     0.9987    0.9992    0.9990     32925
+                      DDoS     0.9951    0.9995    0.9973     33055
+             DoS GoldenEye     0.9997    0.7145    0.8334     33200
+                  DoS Hulk     0.9906    0.9995    0.9950     32955
+          DoS Slowhttptest     0.9953    0.9954    0.9953     32941
+             DoS slowloris     0.9960    0.9950    0.9955     33250
+               FTP-Patator     0.9343    1.0000    0.9661     33287
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.9664    1.0000    0.9829     33030
+                  PortScan     0.8553    0.9956    0.9201     32909
+               SSH-Patator     0.9972    1.0000    0.9986     32991
+  Web Attack � Brute Force     0.9670    0.1648    0.2816     32775
+Web Attack � Sql Injection     0.9663    1.0000    0.9828     33096
+          Web Attack � XSS     0.5512    0.9938    0.7091     32844
+
+                  accuracy                         0.9234    494976
+                 macro avg     0.9474    0.9231    0.9100    494976
+              weighted avg     0.9475    0.9234    0.9103    494976
+
+2024-05-06 19:45:23,400 INFO Validating loss: 1.8924270885256425
+2024-05-06 19:45:23,400 INFO Validating accuracy: 0.9233558798810447
+2024-05-06 19:45:23,400 INFO EarlyStopping counter: 8 out of 10
+2024-05-06 19:45:23,400 INFO Best loss is: 1.892340191673918
+2024-05-06 19:45:23,400 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 19:45:23,400 INFO =================================================
+2024-05-06 19:45:23,400 INFO 
+[ TRAINING EPOCH 40 ]
+2024-05-06 19:57:08,061 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 19:58:33,294 INFO ---Classification Report---
+2024-05-06 19:58:33,294 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9976    0.9890    0.9933     32808
+                       Bot     0.9989    0.9995    0.9992     32924
+                      DDoS     0.7823    0.9996    0.8777     33056
+             DoS GoldenEye     0.9997    0.7150    0.8337     33200
+                  DoS Hulk     0.9903    0.9995    0.9949     32955
+          DoS Slowhttptest     0.9954    0.9955    0.9954     32939
+             DoS slowloris     0.9962    0.9946    0.9954     33248
+               FTP-Patator     1.0000    1.0000    1.0000     33288
+                Heartbleed     1.0000    1.0000    1.0000     32914
+              Infiltration     0.9996    1.0000    0.9998     33030
+                  PortScan     0.9995    0.9956    0.9976     32907
+               SSH-Patator     0.9976    1.0000    0.9988     32989
+  Web Attack � Brute Force     0.9588    0.1653    0.2820     32773
+Web Attack � Sql Injection     0.9680    1.0000    0.9838     33097
+          Web Attack � XSS     0.5515    0.9938    0.7094     32848
+
+                  accuracy                         0.9234    494976
+                 macro avg     0.9490    0.9232    0.9107    494976
+              weighted avg     0.9491    0.9234    0.9111    494976
+
+2024-05-06 19:58:33,294 INFO Validating loss: 1.8923802685299862
+2024-05-06 19:58:33,294 INFO Validating accuracy: 0.9234286106801138
+2024-05-06 19:58:33,294 INFO EarlyStopping counter: 9 out of 10
+2024-05-06 19:58:33,294 INFO Best loss is: 1.892340191673918
+2024-05-06 19:58:33,294 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 19:58:33,294 INFO =================================================
+2024-05-06 19:58:33,294 INFO 
+[ TRAINING EPOCH 41 ]
+2024-05-06 20:10:20,987 INFO 
+[ EVALUATING VALIDATION ACCURACY ]
+2024-05-06 20:11:46,424 INFO ---Classification Report---
+2024-05-06 20:11:46,424 INFO                             precision    recall  f1-score   support
+
+                    BENIGN     0.9956    0.9888    0.9922     32807
+                       Bot     0.9990    0.9988    0.9989     32927
+                      DDoS     0.9986    0.9993    0.9990     33056
+             DoS GoldenEye     0.9997    0.7150    0.8337     33198
+                  DoS Hulk     0.9903    0.9995    0.9949     32954
+          DoS Slowhttptest     0.9956    0.9954    0.9955     32941
+             DoS slowloris     0.9717    0.9954    0.9834     33248
+               FTP-Patator     0.9659    1.0000    0.9826     33287
+                Heartbleed     1.0000    1.0000    1.0000     32913
+              Infiltration     1.0000    1.0000    1.0000     33030
+                  PortScan     0.9407    0.9956    0.9674     32906
+               SSH-Patator     0.8750    1.0000    0.9333     32992
+  Web Attack � Brute Force     0.9504    0.1654    0.2818     32773
+Web Attack � Sql Injection     0.9555    1.0000    0.9772     33096
+          Web Attack � XSS     0.5522    0.9938    0.7099     32848
+
+                  accuracy                         0.9234    494976
+                 macro avg     0.9460    0.9231    0.9100    494976
+              weighted avg     0.9461    0.9234    0.9103    494976
+
+2024-05-06 20:11:46,424 INFO Validating loss: 1.8923979218628229
+2024-05-06 20:11:46,424 INFO Validating accuracy: 0.9234063873803983
+2024-05-06 20:11:46,424 INFO EarlyStopping counter: 10 out of 10
+2024-05-06 20:11:46,424 INFO Best loss is: 1.892340191673918
+2024-05-06 20:11:46,424 INFO Best accuracy is: 0.9234407324799586
+2024-05-06 20:11:46,424 INFO Early stopping triggered.
+2024-05-06 20:11:46,644 INFO Final model saved.
